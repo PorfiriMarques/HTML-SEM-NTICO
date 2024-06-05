@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+body{
+    background-color: #fbfbff;
+}
+
+header{
+    border-bottom: 2px solid #aaa;
+    margin-top: 15px;
+}
+
+.links-home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-home a{
+    text-decoration: none;
+}
+
+.links-home h2{
+    left:59px ;
+    position: relative;
+}
+
+.links-home h2:hover{
+    color: #aaa;
+}
+
+form input{
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding: 5px;
+}
+
+form [type=submit]{
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #6faaf3;
+    color: #fff;
+    font-weight: bold;
+}
+
+form a{
+    font-size: 15px;
+    color: #aaa;
+    padding: 5px;
+}
+
+form a:hover{
+    color: #6faaf3;
+}
+
+p a:hover{
+    color: #6faaf3;
+}
+
+main{
+    justify-content: center;
+    padding: 25px;
+}
+p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main figure{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+}
+
+.container main{
+    padding: 55px;
+}
+
+.container img{
+    border-radius: 5px;
+}
+
+
+.style {
+    border: 1px solid #aaa;
+    padding: 4.5rem;
+    position: relative;
+    top: 105px;
+    right: 35px;
+}
+
+.style div{
+    margin-top: 10px;
+}
+.style a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+div a:hover{
+    color: #6faaf3;
+}
+
+footer{
+    border-top: 2px solid #aaa;
+    padding: 25px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}
